@@ -15,7 +15,6 @@ const Header = ({ title, onAdd, showAdd }) => {
           onClick={onAdd}
         />
       )}
-
     </header>
   )
 }
