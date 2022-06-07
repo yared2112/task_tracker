@@ -1,7 +1,6 @@
-import { useState } from "react";
-import Header from "./components/Header";
-import Tasks from "./components/Tasks";
-import AddTask from "./components/AddTask";
+import PropTypes from 'prop-types'
+import { useLocation } from 'react-router-dom'
+import Button from './components/Button';
 function App() {
   return (
     <div className="container">
